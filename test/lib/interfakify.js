@@ -7,7 +7,7 @@ module.exports = {
   create: create
 };
 
-function create(requests, config) {
+function create(requests) {
   var interfakeOpts = {};
   if (process.env.DEBUG && process.env.DEBUG.match(/interfake/)) {
     interfakeOpts.debug = true;

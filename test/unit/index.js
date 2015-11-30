@@ -3,7 +3,7 @@
 var test = require('tape');
 var template = require('../../lib/engine_util').template;
 
-// TODO:
+// TO DO:
 // plain strings
 // string with a {{}}
 // string with multiple {{}}s

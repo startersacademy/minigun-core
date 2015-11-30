@@ -18,8 +18,6 @@ server.connection({
 });
 
 
-// TODO: clean up
-
 server.route({
   method: 'POST',
   path: '/setscookie',
